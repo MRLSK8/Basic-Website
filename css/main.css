@@ -6,30 +6,30 @@ body {
 ul {
     padding: 0px!important;
 }
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
 .menu-principal {
     width: 100%;
     background-color: #252323;
     height: 60px;
-}
-main {
-    margin: 0 auto;
-    width: 980px;
-    position: relative;
 }
 .logo {
     float: left;
     padding: 15px;
     width: 60%;
 }
+.redes-sociais {
+    width: 30%;
+    float: right;
+}
 .redes-sociais ul li {
     margin-left: 15px;
     display: inline-block;
     float: left;
     list-style: none;
-}
-.redes-sociais {
-    width: 30%;
-    float: right;
 }
 .header-2 {
     background-color: #ffffff;
@@ -40,6 +40,10 @@ main {
 .menu-urls {
     height: 80px;
     border-bottom: 3px solid #efefef;
+}
+.menu {
+    width: 70%;
+    float: left;
 }
 .menu ul li {
     display: inline-block;
@@ -57,10 +61,6 @@ main {
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
-}
-.menu {
-    width: 70%;
-    float: left;
 }
 .busca {
     text-align: center;
@@ -116,6 +116,11 @@ button.slick-arrow:hover {
 .slick-initialized{
     overflow: hidden;
 }
+.slick-dots {
+    position: absolute;
+    top: 90%;
+    left: 31%;
+}
 .slick-dots li button {
     margin: 0px auto;
     font-size: 0px;
@@ -135,11 +140,20 @@ button.slick-arrow:hover {
     position: relative;
     left: 80%;
 }
-.slick-dots {
-    position: absolute;
-    top: 90%;
-    left: 31%;
-}
 li.slick-active button {
     background: #09969F;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque h1 {
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
 }
